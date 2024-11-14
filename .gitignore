@@ -1,0 +1,5 @@
+# TypeScript
+node_modules
+
+# clasp
+.clasp.json
