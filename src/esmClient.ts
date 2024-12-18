@@ -116,8 +116,6 @@ class ESMClient {
 
   /**
    * eセールスマネージャーRemixに登録済みの単一のエンティティを削除します。
-   * 
-   * @link
    */
   delete(request: DeleteRequest) {
     return this.exec_('delete', `${this.baseUrl}/rest/v1/entity`, request)
